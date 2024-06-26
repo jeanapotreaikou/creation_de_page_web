@@ -1,0 +1,63 @@
+*{
+    font-family: "Roboto", sans-serif; 
+}
+
+#inventore {
+    color: rgb(173, 34, 141);
+}
+
+#image{
+    animation-duration: 2s;
+}
+#image:hover{
+    width: 30%;
+    height: 30%;
+}
+
+/* début de Style de exercise.html */
+.big-box{
+    margin: auto;
+    display: flex;
+    height: 400px;  
+    width: 500px;
+    background-color: rgb(70, 68, 68);
+}
+
+.box{
+    width: 80px;
+    height: 50px;
+}
+
+.box1{
+    background-color: navajowhite;
+}
+
+.box2{
+    background-color: rgb(174, 113, 22);
+}
+
+.box3{
+    background-color: rgb(35, 72, 197);
+}
+
+.box4{
+    background-color: rgb(69, 204, 82);
+}
+
+.box5{
+    background-color: rgb(211, 130, 9);
+}
+
+.box6{
+    background-color: rgb(124, 13, 100);
+}
+
+.box7{
+    background-color: rgb(186, 172, 19);
+}
+
+.box8{
+    background-color: navajowhite;
+}
+
+/* fin de Style de exercise.html */
