@@ -1,13 +1,13 @@
-*{
-    font-family: "Roboto", sans-serif; 
+* {
+    font-family: "Roboto", sans-serif;
 }
 
 
-.display{
+.display {
     display: inline-block;
 }
 
-header nav{
+header nav {
     position: relative;
 }
 
@@ -16,36 +16,18 @@ header nav{
 } */
 
 
-header nav ul{
+header nav ul {
     position: absolute;
     right: 0px;
     padding: 0px;
 }
 
-header nav ul li{
+header nav ul li {
     margin-right: 20px;
 }
 
-#inventore {
-    color: rgb(173, 34, 141);
-}
+p+a {
 
-/* #image:hover{
-    width: 30%;
-    height: 30%;
-} */
-
-/* début de Style de exercise.html */
-.big-box{
-    margin: auto;
-    display: flex;
-    height: 400px;  
-    width: 500px;
-    background-color: rgb(70, 68, 68);
-}
-
-p+a{
-    
     width: 100px;
     height: 40px;
     border-radius: 10px;
@@ -62,48 +44,69 @@ p+a{
     right: 0;
 }
 
-p+a:hover{
+p+a:hover {
     background: rgba(68, 174, 139, 0.742);
     border: 1px solid rgb(68, 174, 139);
     color: rgb(255, 255, 255);
 }
 
-
-
-.box{
-    width: 80px;
-    height: 50px;
+#inventore {
+    color: rgb(173, 34, 141);
 }
 
-.box1{
+/* #image:hover{
+    width: 30%;
+    height: 30%;
+} */
+
+/* début de Style de exercise.html */
+.big-box {
+    margin: auto;
+    margin-top: 100px;
+    height: 400px;
+    width: 1000px;
+    background-color: rgb(144, 144, 144);
+    /* overflow: auto; */
+    /*La propriété "overflow" Permet de gérer les contenu qui déborde */
+    display: flex;
+    /* flex-direction: row-reverse;
+    gap: 30px; */
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+}
+
+.box1 {
     background-color: navajowhite;
 }
 
-.box2{
+.box2 {
     background-color: rgb(174, 113, 22);
 }
 
-.box3{
+.box3 {
     background-color: rgb(35, 72, 197);
 }
 
-.box4{
+.box4 {
     background-color: rgb(69, 204, 82);
 }
 
-.box5{
+.box5 {
     background-color: rgb(211, 130, 9);
 }
 
-.box6{
+.box6 {
     background-color: rgb(124, 13, 100);
 }
 
-.box7{
+.box7 {
     background-color: rgb(186, 172, 19);
 }
 
-.box8{
+.box8 {
     background-color: navajowhite;
 }
 
